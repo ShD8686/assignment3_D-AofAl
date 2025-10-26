@@ -1,0 +1,12 @@
+{
+  "vertices": ["A", "B", "C", "D", "E", "F"],
+  "edges": [
+    {"source": "A", "destination": "B", "weight": 2},
+    {"source": "A", "destination": "C", "weight": 1},
+    {"source": "B", "destination": "C", "weight": 3},
+    // Компонента 2 (D, E, F)
+    {"source": "D", "destination": "E", "weight": 4},
+    {"source": "E", "destination": "F", "weight": 2},
+    {"source": "D", "destination": "F", "weight": 5}
+  ]
+}

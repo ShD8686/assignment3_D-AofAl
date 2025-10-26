@@ -1,0 +1,33 @@
+{
+  "vertices": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T"],
+  "edges": [
+    {"source": "A", "destination": "B", "weight": 3},
+    {"source": "A", "destination": "C", "weight": 1},
+    {"source": "B", "destination": "D", "weight": 2},
+    {"source": "C", "destination": "E", "weight": 4},
+    {"source": "D", "destination": "F", "weight": 5},
+    {"source": "E", "destination": "G", "weight": 2},
+    {"source": "F", "destination": "H", "weight": 3},
+    {"source": "G", "destination": "I", "weight": 1},
+    {"source": "H", "destination": "J", "weight": 4},
+    {"source": "I", "destination": "K", "weight": 2},
+    {"source": "J", "destination": "L", "weight": 3},
+    {"source": "K", "destination": "M", "weight": 5},
+    {"source": "L", "destination": "N", "weight": 1},
+    {"source": "M", "destination": "O", "weight": 2},
+    {"source": "N", "destination": "P", "weight": 4},
+    {"source": "O", "destination": "Q", "weight": 3},
+    {"source": "P", "destination": "R", "weight": 2},
+    {"source": "Q", "destination": "S", "weight": 1},
+    {"source": "R", "destination": "T", "weight": 5},
+    {"source": "S", "destination": "T", "weight": 2},
+    {"source": "A", "destination": "D", "weight": 6},
+    {"source": "B", "destination": "E", "weight": 4},
+    {"source": "C", "destination": "F", "weight": 3},
+    {"source": "D", "destination": "G", "weight": 2},
+    {"source": "E", "destination": "H", "weight": 5},
+    {"source": "F", "destination": "I", "weight": 1},
+    {"source": "G", "destination": "J", "weight": 4},
+    {"source": "H", "destination": "K", "weight": 3}
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "vertices": 20,
+  "edges": 28,
+  "graphType": "sparse",
+  "PrimMST": {
+    "totalWeight": 44.0,
+    "executionTimeMs": 0.0769,
+    "operationCount": 310,
+    "comparisonCount": 198,
+    "edgeVisitCount": 56,
+    "queueOperations": 56,
+    "mstEdges": [
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 1.0
+      },
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 3.0
+      },
+      {
+        "source": "B",
+        "destination": "D",
+        "weight": 2.0
+      },
+      {
+        "source": "D",
+        "destination": "G",
+        "weight": 2.0
+      },
+      {
+        "source": "G",
+        "destination": "I",
+        "weight": 1.0
+      },
+      {
+        "source": "F",
+        "destination": "I",
+        "weight": 1.0
+      },
+      {
+        "source": "E",
+        "destination": "G",
+        "weight": 2.0
+      },
+      {
+        "source": "I",
+        "destination": "K",
+        "weight": 2.0
+      },
+      {
+        "source": "F",
+        "destination": "H",
+        "weight": 3.0
+      },
+      {
+        "source": "G",
+        "destination": "J",
+        "weight": 4.0
+      },
+      {
+        "source": "J",
+        "destination": "L",
+        "weight": 3.0
+      },
+      {
+        "source": "L",
+        "destination": "N",
+        "weight": 1.0
+      },
+      {
+        "source": "N",
+        "destination": "P",
+        "weight": 4.0
+      },
+      {
+        "source": "P",
+        "destination": "R",
+        "weight": 2.0
+      },
+      {
+        "source": "K",
+        "destination": "M",
+        "weight": 5.0
+      },
+      {
+        "source": "M",
+        "destination": "O",
+        "weight": 2.0
+      },
+      {
+        "source": "O",
+        "destination": "Q",
+        "weight": 3.0
+      },
+      {
+        "source": "Q",
+        "destination": "S",
+        "weight": 1.0
+      },
+      {
+        "source": "S",
+        "destination": "T",
+        "weight": 2.0
+      }
+    ]
+  },
+  "KruskalMST": {
+    "totalWeight": 44.0,
+    "executionTimeMs": 0.0979,
+    "operationCount": 483,
+    "comparisonCount": 110,
+    "unionFindOperations": 261,
+    "sortOperations": 112,
+    "mstEdges": [
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 1.0
+      },
+      {
+        "source": "F",
+        "destination": "I",
+        "weight": 1.0
+      },
+      {
+        "source": "G",
+        "destination": "I",
+        "weight": 1.0
+      },
+      {
+        "source": "L",
+        "destination": "N",
+        "weight": 1.0
+      },
+      {
+        "source": "Q",
+        "destination": "S",
+        "weight": 1.0
+      },
+      {
+        "source": "B",
+        "destination": "D",
+        "weight": 2.0
+      },
+      {
+        "source": "D",
+        "destination": "G",
+        "weight": 2.0
+      },
+      {
+        "source": "E",
+        "destination": "G",
+        "weight": 2.0
+      },
+      {
+        "source": "I",
+        "destination": "K",
+        "weight": 2.0
+      },
+      {
+        "source": "M",
+        "destination": "O",
+        "weight": 2.0
+      },
+      {
+        "source": "P",
+        "destination": "R",
+        "weight": 2.0
+      },
+      {
+        "source": "S",
+        "destination": "T",
+        "weight": 2.0
+      },
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 3.0
+      },
+      {
+        "source": "F",
+        "destination": "H",
+        "weight": 3.0
+      },
+      {
+        "source": "J",
+        "destination": "L",
+        "weight": 3.0
+      },
+      {
+        "source": "O",
+        "destination": "Q",
+        "weight": 3.0
+      },
+      {
+        "source": "G",
+        "destination": "J",
+        "weight": 4.0
+      },
+      {
+        "source": "N",
+        "destination": "P",
+        "weight": 4.0
+      },
+      {
+        "source": "K",
+        "destination": "M",
+        "weight": 5.0
+      }
+    ]
+  },
+  "algorithmsConsistent": true
+}

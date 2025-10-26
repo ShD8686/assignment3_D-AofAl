@@ -1,0 +1,10 @@
+{
+  "vertices": ["A", "B", "C", "D"],
+  "edges": [
+    {"source": "A", "destination": "B", "weight": 1},
+    {"source": "A", "destination": "C", "weight": 2},
+    {"source": "B", "destination": "C", "weight": 3},
+    {"source": "B", "destination": "D", "weight": 4},
+    {"source": "C", "destination": "D", "weight": 5}
+  ]
+}

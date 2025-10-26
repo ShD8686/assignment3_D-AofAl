@@ -1,0 +1,116 @@
+{
+  "vertices": 10,
+  "edges": 15,
+  "graphType": "medium",
+  "PrimMST": {
+    "totalWeight": 22.0,
+    "executionTimeMs": 0.0862,
+    "operationCount": 163,
+    "comparisonCount": 103,
+    "edgeVisitCount": 30,
+    "queueOperations": 30,
+    "mstEdges": [
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 2.0
+      },
+      {
+        "source": "C",
+        "destination": "D",
+        "weight": 1.0
+      },
+      {
+        "source": "D",
+        "destination": "F",
+        "weight": 2.0
+      },
+      {
+        "source": "C",
+        "destination": "E",
+        "weight": 3.0
+      },
+      {
+        "source": "F",
+        "destination": "H",
+        "weight": 3.0
+      },
+      {
+        "source": "G",
+        "destination": "H",
+        "weight": 1.0
+      },
+      {
+        "source": "H",
+        "destination": "J",
+        "weight": 2.0
+      },
+      {
+        "source": "I",
+        "destination": "J",
+        "weight": 4.0
+      },
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 4.0
+      }
+    ]
+  },
+  "KruskalMST": {
+    "totalWeight": 22.0,
+    "executionTimeMs": 0.0635,
+    "operationCount": 203,
+    "comparisonCount": 48,
+    "unionFindOperations": 110,
+    "sortOperations": 45,
+    "mstEdges": [
+      {
+        "source": "C",
+        "destination": "D",
+        "weight": 1.0
+      },
+      {
+        "source": "G",
+        "destination": "H",
+        "weight": 1.0
+      },
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 2.0
+      },
+      {
+        "source": "D",
+        "destination": "F",
+        "weight": 2.0
+      },
+      {
+        "source": "H",
+        "destination": "J",
+        "weight": 2.0
+      },
+      {
+        "source": "C",
+        "destination": "E",
+        "weight": 3.0
+      },
+      {
+        "source": "F",
+        "destination": "H",
+        "weight": 3.0
+      },
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 4.0
+      },
+      {
+        "source": "I",
+        "destination": "J",
+        "weight": 4.0
+      }
+    ]
+  },
+  "algorithmsConsistent": true
+}

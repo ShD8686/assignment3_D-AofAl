@@ -1,0 +1,56 @@
+{
+  "vertices": 4,
+  "edges": 5,
+  "graphType": "dense",
+  "PrimMST": {
+    "totalWeight": 7.0,
+    "executionTimeMs": 1.4569,
+    "operationCount": 55,
+    "comparisonCount": 35,
+    "edgeVisitCount": 10,
+    "queueOperations": 10,
+    "mstEdges": [
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 1.0
+      },
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 2.0
+      },
+      {
+        "source": "B",
+        "destination": "D",
+        "weight": 4.0
+      }
+    ]
+  },
+  "KruskalMST": {
+    "totalWeight": 7.0,
+    "executionTimeMs": 1.2048,
+    "operationCount": 67,
+    "comparisonCount": 18,
+    "unionFindOperations": 39,
+    "sortOperations": 10,
+    "mstEdges": [
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 1.0
+      },
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 2.0
+      },
+      {
+        "source": "B",
+        "destination": "D",
+        "weight": 4.0
+      }
+    ]
+  },
+  "algorithmsConsistent": true
+}

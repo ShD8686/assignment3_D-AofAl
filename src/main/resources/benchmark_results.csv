@@ -1,0 +1,9 @@
+Graph Name,Algorithm,MST Cost,Vertices,Edges,Detailed Metrics,Average Execution Time (ms)
+Маленький граф,Prim,7.00,4,5,"{'key_comparisons': 35}",1.4569
+Маленький граф,Kruskal,7.00,4,5,"{'edge_sorts': 1, 'find_operations': 0, 'union_operations': 3}",1.2048
+Средний граф,Prim,22.00,10,15,"{'key_comparisons': 103}",0.0862
+Средний граф,Kruskal,22.00,10,15,"{'edge_sorts': 1, 'find_operations': 0, 'union_operations': 9}",0.0635
+Большой граф,Prim,44.00,20,28,"{'key_comparisons': 198}",0.0769
+Большой граф,Kruskal,44.00,20,28,"{'edge_sorts': 1, 'find_operations': 0, 'union_operations': 19}",0.0979
+Несвязный граф,Prim,9.00,6,6,"{'key_comparisons': 44}",0.0295
+Несвязный граф,Kruskal,9.00,6,6,"{'edge_sorts': 1, 'find_operations': 0, 'union_operations': 4}",0.0326
